@@ -1,0 +1,14 @@
+backend list :
+express , mongoose , dot env,body-parser ,nodemon,jwt tokens , bcrypt ,multer
+
+connecting database
+API creation
+ models
+  Vendors : username , email ,password
+  firm : firmname, area, category , region , offer, image
+  products : productname , price , category, image,best seller
+ controllers
+   vendercontrollers
+ routes
+   venderroutes
+  
