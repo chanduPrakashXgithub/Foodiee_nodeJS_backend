@@ -11,4 +11,10 @@ API creation
    vendercontrollers
  routes
    venderroutes
+   commands for update git through vscode:
+   git status,
+   git add .
+   git commit -m "made changes"
+   git pull
+   git push
   

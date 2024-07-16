@@ -2,7 +2,9 @@ const multer=require('multer')
 
 const vendors = require('../models/Vendors');
 
-const Firm =require('../models/firm');
+const products = require('../models/Products');
+const Firm=require('../models/firm');
+
 const storage=multer.diskStorage({
     destination: function (req, file, cb) {
         cb(null, 'uploads')
