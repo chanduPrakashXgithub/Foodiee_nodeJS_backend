@@ -2,7 +2,7 @@ const multer=require('multer')
 
 const vendors = require('../models/Vendors');
 
-const products = require('../models/Products');
+const products = require('../models/products');
 const Firm=require('../models/firm');
 
 const storage=multer.diskStorage({
